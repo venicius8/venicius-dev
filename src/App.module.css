@@ -1,0 +1,27 @@
+/* Main */
+
+.main {
+  height: 80vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameEffect {
+  color: rgb(0, 255, 0);
+  animation: nameEffectColor 2s infinite alternate ease-in-out;
+}
+
+@keyframes nameEffectColor {
+  0% {
+    color: rgb(0, 255, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+
+.main h1 {
+  font-size: 40px;
+}
