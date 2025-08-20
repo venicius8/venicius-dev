@@ -10,7 +10,7 @@ export function Header() {
         <nav>
           <ul>
             <li>
-              <a href="#history">Minha história</a>
+              <a href="#story">Minha história</a>
             </li>
             <li>
               <a href="#whatIDid">O que ja fiz</a>
@@ -29,7 +29,7 @@ export function Header() {
               <button onClick={() => setMenu(!menu)}>&#x2715;</button>
             </li>
             <li>
-              <a href="#history">Minha história</a>
+              <a href="#story">Minha história</a>
             </li>
             <li>
               <a href="#WhatIDid">O que ja fiz</a>

@@ -1,5 +1,6 @@
 import { Header } from "./components/Header.jsx";
 import Styles from "./App.module.css";
+import Story from "./components/Story.jsx";
 
 function App() {
   return (
@@ -13,13 +14,7 @@ function App() {
         </h1>
       </section>
 
-      <section>
-        <h2 id="history">Minha história</h2>
-        <p>
-          Sou do interior pernambucano, tenho 18 anos, e minha maior paixão é a{" "}
-          <u>tecnologia</u>. Tudo comecou quando eu... "Ler mais"
-        </p>
-      </section>
+      <Story></Story>
 
       <section>
         <h2>E sobre hoje</h2>

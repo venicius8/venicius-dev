@@ -1,0 +1,15 @@
+.storySection {
+  margin-bottom: 150px;
+}
+
+.storyText {
+  max-width: 800px;
+}
+
+.storyText p {
+  font-size: 20px;
+}
+
+.storyText i {
+  cursor: pointer;
+}
