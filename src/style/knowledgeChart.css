@@ -1,0 +1,12 @@
+.knowledgeBar {
+  width: 500px;
+  height: 50px;
+  background-color: rgb(53, 53, 53);
+  border-radius: 25px;
+  margin: 10px 5px;
+}
+
+.knowledgeProgress {
+  height: 50px;
+  border-radius: 25px;
+}

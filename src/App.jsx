@@ -1,6 +1,7 @@
 import { Header } from "./components/Header.jsx";
 import Styles from "./App.module.css";
 import Story from "./components/Story.jsx";
+import KnowledgeChart from "./components/KnowledgeChart.jsx";
 
 function App() {
   return (
@@ -24,9 +25,17 @@ function App() {
           Com esse período de tempo, consegui adquirir diversos conhecimentos,
           como:
         </p>
-        <div className="knowledgeChart"></div>
+
+        <div>
+          <KnowledgeChart name="HTML" progress={10} />
+          <KnowledgeChart name="Bootstrap" progress={20} />
+          <KnowledgeChart name="JavaScript" progress={30} />
+          <KnowledgeChart name="React" progress={40} />
+        </div>
+
         <p>Além de possuir experiência em:</p>
-        <div className="experienceChart"></div>
+        <KnowledgeChart name="Git/GitHub" progress={50} />
+        <KnowledgeChart name="Linux" progress={60} />
       </section>
 
       <section>
