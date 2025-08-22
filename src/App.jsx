@@ -2,6 +2,7 @@ import { Header } from "./components/Header.jsx";
 import Styles from "./App.module.css";
 import Story from "./components/Story.jsx";
 import KnowledgeChart from "./components/KnowledgeChart.jsx";
+import WhatIveDone from "./components/whatIveDone.jsx";
 
 function App() {
   return (
@@ -43,14 +44,7 @@ function App() {
         </div>
       </section>
 
-      <section>
-        <h2 id="whatIDid">O que já fiz</h2>
-        <p>
-          Tenho um portfólio onde mostro todos os meus projetos principais que
-          construi.
-        </p>
-        <div className="portfolio"></div>
-      </section>
+      <WhatIveDone></WhatIveDone>
 
       <section>
         <h2 id="platafoms">Minhas as plataformas</h2>
