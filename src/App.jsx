@@ -21,21 +21,26 @@ function App() {
         <h2>E sobre hoje</h2>
         <p>
           Atualmente, estou comprometido a estudar desenvolvimento web 5 horas
-          por dia, 5 dias por semanas, desde início de 2025, sem nenhuma falta*.
-          Com esse período de tempo, consegui adquirir diversos conhecimentos,
-          como:
+          por dia, 5 dias por semanas, desde início de 2025, sem exceções como
+          feriados*. Com esse período de tempo, consegui adquirir diversos
+          conhecimentos, como:
         </p>
 
-        <div>
-          <KnowledgeChart name="HTML" progress={10} />
-          <KnowledgeChart name="Bootstrap" progress={20} />
-          <KnowledgeChart name="JavaScript" progress={30} />
+        <div className="chart">
+          <KnowledgeChart name="JavaScript" progress={56} />
           <KnowledgeChart name="React" progress={40} />
+          <KnowledgeChart name="HTML" progress={73} />
+          <KnowledgeChart name="MongoDB" progress={52} />
+          <KnowledgeChart name="CSS" progress={49} />
+          <KnowledgeChart name="Node.js" progress={55} />
         </div>
 
         <p>Além de possuir experiência em:</p>
-        <KnowledgeChart name="Git/GitHub" progress={50} />
-        <KnowledgeChart name="Linux" progress={60} />
+        <div className="chart">
+          <KnowledgeChart name="Git/GitHub" progress={59} />
+          <KnowledgeChart name="APIs REST" progress={40} />
+          <KnowledgeChart name="Linux" progress={52} />
+        </div>
       </section>
 
       <section>

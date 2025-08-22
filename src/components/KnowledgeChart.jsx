@@ -15,15 +15,11 @@ function KnowledgeChart({ name, progress }) {
 
   return (
     <>
-      <h3>{name}</h3>
+      <h3 style={{ textAlign: "start" }}>{name}</h3>
       <div className="knowledgeBar" ref={barRef}>
         <div
           className="knowledgeProgress"
-          style={{
-            width: visible ? progress + "%" : "0%",
-            backgroundColor: "white",
-            transition: "2s ease-in-out",
-          }}
+          style={{ width: visible ? progress + "%" : "0%" }}
         ></div>
       </div>
     </>
