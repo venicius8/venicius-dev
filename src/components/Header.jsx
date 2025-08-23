@@ -9,21 +9,39 @@ export function Header() {
         <h1>Venícius' Dev</h1>
         <nav>
           <ul>
-            <li>
-              <a href="#story">Minha história</a>
-            </li>
-            <li>
-              <a href="#whatIDid">O que ja fiz</a>
-            </li>
-            <li>
-              <a href="#platafoms">Plataformas</a>
-            </li>
+            {window.innerWidth > 800 ? (
+              <>
+                <li>
+                  <a href="#story">Minha história</a>
+                </li>
+                <li>
+                  <a href="#whatIveDone">Portfólio</a>
+                </li>
+                <li>
+                  <a href="#platafoms">Plataformas</a>
+                </li>
+              </>
+            ) : (
+              <button
+                onClick={() => {
+                  setMenu(!menu);
+                }}
+              >
+                ☰
+              </button>
+            )}
           </ul>
         </nav>
       </header>
-      <aside>
+
+      <div
+        className={menu ? "exitMenu" : "none"}
+        onClick={() => {
+          setMenu(!menu);
+        }}
+      ></div>
+      <aside className={menu ? "menu-open" : "menu-closed"}>
         <nav>
-          <a onClick={() => setMenu(!menu)}>☰</a>
           <ul>
             <li>
               <button onClick={() => setMenu(!menu)}>&#x2715;</button>
@@ -32,7 +50,7 @@ export function Header() {
               <a href="#story">Minha história</a>
             </li>
             <li>
-              <a href="#WhatIDid">O que ja fiz</a>
+              <a href="#whatIveDone">Portfólio</a>
             </li>
             <li>
               <a href="#platafoms">Plataformas</a>
