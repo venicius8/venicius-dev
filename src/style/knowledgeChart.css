@@ -11,7 +11,8 @@
 .knowledgeProgress {
   height: 50px;
   border-radius: 25px;
-  background-color: rgb(168, 255, 168);
+  background-image: linear-gradient(to right, rgb(35, 255, 35), rgb(0, 148, 0));
+  box-shadow: 10px 0 15px rgb(0, 70, 0);
   transition: 2s ease-in-out;
 }
 

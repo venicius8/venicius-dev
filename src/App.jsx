@@ -18,7 +18,7 @@ function App() {
 
       <Story></Story>
 
-      <section>
+      <section id="aboutToday">
         <hr />
         <h2>E sobre hoje</h2>
         <p>

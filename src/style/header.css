@@ -2,7 +2,7 @@ header {
   width: auto;
   height: 80px;
   top: 0;
-  background-color: rgba(36, 155, 36, 0.5);
+  background-color: rgba(26, 53, 26, 0.5);
   margin: 0;
   display: flex;
   z-index: 100;
@@ -20,10 +20,16 @@ ul {
 
 li {
   list-style: none;
+  transition: 0.3s;
+}
+
+li:hover {
+  scale: 1.1;
 }
 
 a {
   color: rgb(224, 255, 224);
+  text-decoration: none;
 }
 
 aside {
