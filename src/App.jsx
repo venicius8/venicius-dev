@@ -23,9 +23,9 @@ function App() {
         <h2>E sobre hoje</h2>
         <p>
           Atualmente, estou comprometido a estudar desenvolvimento web 5 horas
-          por dia, 5 dias por semanas, desde início de 2025, sem exceções como
-          feriados*. Com esse período de tempo, consegui adquirir diversos
-          conhecimentos, como:
+          por dia, 5 dias por semana, desde o início de 2025,{" "}
+          <a href="#firstObs">sem exceções como feriados*</a> . Com esse período
+          de tempo, consegui adquirir diversos conhecimentos, como:
         </p>
 
         <div className="chart">
@@ -48,29 +48,63 @@ function App() {
 
       <WhatIveDone></WhatIveDone>
 
-      <section>
+      <section id="platfoms">
         <hr />
-        <h2 id="platafoms">Minhas as plataformas</h2>
-        <div className="twitterLink"></div>
+        <h2>Links úteis</h2>
+
         <p>
-          Aqui eu faço um desafio do #100DaysOfCode, onde deve fazer 100 dias
-          consecutivos escrevendo códigos e documentando o processo.
+          Aqui no{" "}
+          <a
+            href="http://x.com/venicius8v"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            meu Twitter <u>x.com/venicius8v</u>
+          </a>{" "}
+          eu faço um desafio do #100DaysOfCode, onde deve-se fazer 100 dias
+          consecutivos escrevendo códigos e documentando o processo. Lembrando
+          que, neste desafio, estudo pelo menos 1 hora nos finais de semana.
         </p>
-        <div className="githubRepoLink"></div>
         <p>
-          Não precisa agora perdido em meus repositórios. Neste link, mostro os
-          repositórios mais úteis e segmentados. Obs.: é diferente do portfólio!
+          Sobre minha parte profissional, possuo o{" "}
+          <a
+            href="http://linkedin.com/in/venícius-silva-b05183357"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn <u>linkedin.com/in/venícius-silva-b05183357</u>
+          </a>
+          . Em breve, pretendo estar engajado e mostrar mais a minha jornada
+          nesta plataforma também.
         </p>
+        <p>
+          E também tem o{" "}
+          <a
+            href="http://github.com/venicius8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            meu GitHub <u>github.com/venicius8</u>
+          </a>{" "}
+          , que é a plataforma mais importante o meu dia a dia Dev.
+        </p>
+        <h2>Contato</h2>
+        <p>
+          Meu email principal:{" "}
+          <a href="mailto:miguelsilva8v@gmail.com">
+            <u>miguelsilva8v@gmail.com</u>
+          </a>
+        </p>
+        <br />
       </section>
 
       <footer>
         <hr />
-        <h2>Contato</h2>
-        <a href="mailto:miguelsilva8v@gmail.com">miguelsilva8v@gmail.com</a>
-        <a href="http://x.com/venicius8v">x.com/venicius8v</a>
-
-        <h2>Observações</h2>
-        <p>
+        <h2>
+          <u>Rodapé</u>
+        </h2>
+        <h3>Observações</h3>
+        <p id="firstObs">
           * Fiquei um período sem computador, logo perdi 2 semanas de estudos.
         </p>
       </footer>

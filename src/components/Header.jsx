@@ -18,7 +18,7 @@ export function Header() {
                   <a href="#whatIveDone">Portfólio</a>
                 </li>
                 <li>
-                  <a href="#platafoms">Plataformas</a>
+                  <a href="#platfoms">Plataformas</a>
                 </li>
               </>
             ) : (
@@ -53,7 +53,7 @@ export function Header() {
               <a href="#whatIveDone">Portfólio</a>
             </li>
             <li>
-              <a href="#platafoms">Plataformas</a>
+              <a href="#platfoms">Plataformas</a>
             </li>
           </ul>
         </nav>
