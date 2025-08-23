@@ -19,6 +19,7 @@ function App() {
       <Story></Story>
 
       <section>
+        <hr />
         <h2>E sobre hoje</h2>
         <p>
           Atualmente, estou comprometido a estudar desenvolvimento web 5 horas
@@ -42,11 +43,13 @@ function App() {
           <KnowledgeChart name="APIs REST" progress={40} />
           <KnowledgeChart name="Linux" progress={52} />
         </div>
+        <hr />
       </section>
 
       <WhatIveDone></WhatIveDone>
 
       <section>
+        <hr />
         <h2 id="platafoms">Minhas as plataformas</h2>
         <div className="twitterLink"></div>
         <p>
@@ -61,6 +64,7 @@ function App() {
       </section>
 
       <footer>
+        <hr />
         <h2>Contato</h2>
         <a href="mailto:miguelsilva8v@gmail.com">miguelsilva8v@gmail.com</a>
         <a href="http://x.com/venicius8v">x.com/venicius8v</a>
