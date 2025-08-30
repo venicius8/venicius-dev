@@ -48,7 +48,7 @@ function App() {
 
       <WhatIveDone></WhatIveDone>
 
-      <section id="platfoms">
+      <section id="platforms">
         <hr />
         <h2>Links úteis</h2>
 
