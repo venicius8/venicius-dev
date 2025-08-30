@@ -9,12 +9,12 @@ function App() {
     <>
       <Header></Header>
 
-      <section className={Styles.main}>
+      <main className={Styles.main}>
         <h1>
           Hey! It's me,{" "}
           <span className={Styles.nameEffect}>Venícius Miguel</span>
         </h1>
-      </section>
+      </main>
 
       <Story></Story>
 
@@ -88,25 +88,23 @@ function App() {
           </a>{" "}
           , que é a plataforma mais importante o meu dia a dia Dev.
         </p>
-        <h2>Contato</h2>
-        <p>
-          Meu email principal:{" "}
-          <a href="mailto:miguelsilva8v@gmail.com">
-            <u>miguelsilva8v@gmail.com</u>
-          </a>
-        </p>
         <br />
       </section>
 
       <footer>
         <hr />
-        <h2>
-          <u>Rodapé</u>
-        </h2>
-        <h3>Observações</h3>
+        <h2>Rodapé</h2>
+        <h3>Contato</h3>
+        <p>
+          meu email principal:{" "}
+          <a href="mailto:miguelsilva8v@gmail.com">miguelsilva8v@gmail.com</a>
+        </p>
+        <br />
+        <h3>Observação</h3>
         <p id="firstObs">
           * Fiquei um período sem computador, logo perdi 2 semanas de estudos.
         </p>
+        <p>"Construindo o futuro, uma linha de código por vez."</p>
       </footer>
     </>
   );
