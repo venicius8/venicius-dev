@@ -57,7 +57,7 @@ function Story() {
             <span>
               Na minha adolescência, <u>conheci a programação</u>, mas de forma
               indireta. Em um aplicativo, eu criava jogos encaixando blocos de
-              scripts, em outro, criava um programa em Python para resolver
+              scripts, em outro, desenvolvia um programa em Python para resolver
               problemas matemáticos. Obs.: não tinha computador. Porém, outros
               interesses, como conhecer novos idiomas, aprender a tocar
               instrumentos e investir dinheiro, passaram a ocupar uma grande
@@ -84,7 +84,7 @@ function Story() {
           {part4 && readMore(part5, setPart5)}
           {part5 && (
             <span>
-              Finalmente, aos meus 18 anos,{" "}
+              Finalmente, aos meus 18 anos, no início de 2025,{" "}
               <u>
                 decidi de vez mergulhar de vez neste mundo do desenvolvimento
               </u>
