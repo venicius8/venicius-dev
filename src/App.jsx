@@ -21,18 +21,20 @@ function App() {
       <section id="aboutToday">
         <hr />
         <h2>E sobre hoje</h2>
-        <p>
-          Atualmente, estou comprometido a estudar desenvolvimento web 5 horas
-          por dia, 5 dias por semana, desde o início de 2025,{" "}
-          <a href="#firstObs">sem exceções como feriados*</a> . Com esse período
-          de tempo, consegui adquirir diversos conhecimentos, como:
-        </p>
+        <div className="aboutText">
+          <p>
+            Atualmente, estou comprometido a estudar desenvolvimento web 5 horas
+            por dia, 5 dias por semana, desde o início de 2025,{" "}
+            <a href="#firstObs">sem exceções como feriados*</a> . Com esse
+            período de tempo, consegui adquirir diversos conhecimentos, como:
+          </p>
+        </div>
 
         <div className="chart">
           <KnowledgeChart name="JavaScript" progress={56} />
           <KnowledgeChart name="React" progress={40} />
           <KnowledgeChart name="HTML" progress={73} />
-          <KnowledgeChart name="MongoDB" progress={52} />
+          <KnowledgeChart name="MongoDB" progress={42} />
           <KnowledgeChart name="CSS" progress={49} />
           <KnowledgeChart name="Node.js" progress={55} />
         </div>
